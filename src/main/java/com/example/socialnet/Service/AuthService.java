@@ -6,5 +6,5 @@ import com.example.socialnet.Entities.User;
 
 public interface AuthService {
     public void signup(RegisterRequest registerRequest);
-    public void generateVerificationToken(User user);
+    public String generateVerificationToken(User user);
 }
